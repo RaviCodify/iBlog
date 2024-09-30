@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Dancing+Script:wght@700&family=Roboto&family=Ubuntu&display=swap');
+
+:root {
+    --main-bg-color: brown;
+    --border-color: rgb(243, 157, 157);
+    --font1: 'Baloo Bhaina 2', cursive;
+    --font2: 'Roboto', sans-serif;
+    --font3: 'Ubuntu', sans-serif;
+    --font4: 'Dancing Script', cursive;
+}
+
+.font1{
+    font-family: var(--font1);
+    line-height: 27px;
+}
+
+.font2{
+    font-family: var(--font2);
+}
+
+.font3{
+    font-family: var(--font3);
+}
+
+.font4{
+    font-family: var(--font4);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    font-family: var(--font1);
+    background-color: rgb(243, 157, 157);
+    font-size: 20px;
+}
+
+nav img{
+    width: 70px;
+    padding-right: 12px;
+}
+
+
+nav ul li a:hover {
+    color: navy !important;
+    font-weight: bolder;
+    
+}
+
+.content{
+    background-color: rgb(223, 243, 223);
+    border-radius: 12px;
+    font-family: var(--font1);
+}
+
+
+.content-right img, .content-left img {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.home-articles{
+    background-color: rgb(248, 228, 228);
+    border-radius: 12px;
+}
+
+.home-article{
+    margin: 25px 40px;
+}
+.home-article-img{
+    width: clamp(150px, 45vw, 300px);
+}
+
+.blog-content{
+    background-color: rgb(248, 228, 228);
+    text-align: center;
+    padding-block: 12px;
+    border-radius: 12px;
+}
+.blog-title{
+    font-size: clamp(18px, 3vw, 26px);
+}
+
+.social-logo i{
+    font-size: 30px;
+    margin-left: 12px;
+}
+
+.post-img{
+    max-height: 30vw;
+    overflow: hidden;
+}
+
+.featured-articles {
+    width: clamp(200px, 55vw, 300px);
+}
+
+
+.footer {
+    height: 40px;
+    background-color: rgb(38, 38, 61);
+}
