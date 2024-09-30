@@ -21,7 +21,7 @@ function Blogger() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:3000/create",
+        "https://iblog-43mo.onrender.com/create",
         formState
       );
       setFormState({ title: "", content: "", author: "", readTime: ""});      
