@@ -13,7 +13,7 @@ function Blog() {
   useEffect(() => {
     const fetchBlog = async () => {
       try {
-        const response = await axios.get(`http://localhost:3000/getBlog`);
+        const response = await axios.get(`https://iblog-43mo.onrender.com/getBlog`);
         const blogs = response.data;
 
         setTopBlogs(blogs.filter((blog) => blog._id !== blogId));

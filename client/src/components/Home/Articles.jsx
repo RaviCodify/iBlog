@@ -7,7 +7,7 @@ function Articles() {
   useEffect(() => {
     axios
       .get(
-        "http://localhost:3000/getBlog"
+        "https://iblog-43mo.onrender.com/getBlog"
       )
       .then((response) => {
         setBlogs(response.data);
